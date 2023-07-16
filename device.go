@@ -8,6 +8,7 @@ import (
 // Device is a Shelly-powered device
 type Device struct {
 	Hostname string
+	Type     DeviceType
 }
 
 // GetAPIBaseURL returns the base URL to be used to send commands to this Shelly device.

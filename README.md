@@ -7,3 +7,11 @@ Currently only features of outlets are supported, but this repository should be 
 ## How to use?
 
 see [`client_test.go`](client_test.go) :smile:.
+
+## How to build
+
+```
+go install github.com/dmarkham/enumer@latest
+go generate ./...
+go install
+```
